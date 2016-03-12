@@ -1,0 +1,1274 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 warn package.json angular2-quickstart@1.0.0 No description
+5 warn package.json angular2-quickstart@1.0.0 No repository field.
+6 warn package.json angular2-quickstart@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ '/Users/avega/IdeaProjects/Angular2HelloProject',
+8 verbose install   [ 'angular2',
+8 verbose install     'systemjs',
+8 verbose install     'es6-promise',
+8 verbose install     'es6-shim',
+8 verbose install     'reflect-metadata',
+8 verbose install     'rxjs',
+8 verbose install     'zone.js',
+8 verbose install     'concurrently',
+8 verbose install     'lite-server',
+8 verbose install     'typescript',
+8 verbose install     'typings' ] ]
+9 info preinstall angular2-quickstart@1.0.0
+10 verbose readDependencies using package.json deps
+11 verbose cache add [ 'systemjs@0.19.22', null ]
+12 verbose cache add name=undefined spec="systemjs@0.19.22" args=["systemjs@0.19.22",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'systemjs@0.19.22',
+13 verbose parsed url   path: 'systemjs@0.19.22',
+13 verbose parsed url   href: 'systemjs@0.19.22' }
+14 verbose cache add [ 'es6-promise@^3.0.2', null ]
+15 verbose cache add name=undefined spec="es6-promise@^3.0.2" args=["es6-promise@^3.0.2",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'es6-promise@^3.0.2',
+16 verbose parsed url   path: 'es6-promise@^3.0.2',
+16 verbose parsed url   href: 'es6-promise@^3.0.2' }
+17 verbose cache add name="systemjs" spec="0.19.22" args=["systemjs","0.19.22"]
+18 verbose parsed url { protocol: null,
+18 verbose parsed url   slashes: null,
+18 verbose parsed url   auth: null,
+18 verbose parsed url   host: null,
+18 verbose parsed url   port: null,
+18 verbose parsed url   hostname: null,
+18 verbose parsed url   hash: null,
+18 verbose parsed url   search: null,
+18 verbose parsed url   query: null,
+18 verbose parsed url   pathname: '0.19.22',
+18 verbose parsed url   path: '0.19.22',
+18 verbose parsed url   href: '0.19.22' }
+19 verbose addNamed [ 'systemjs', '0.19.22' ]
+20 verbose addNamed [ '0.19.22', '0.19.22' ]
+21 verbose cache add [ 'es6-shim@^0.33.3', null ]
+22 verbose cache add name=undefined spec="es6-shim@^0.33.3" args=["es6-shim@^0.33.3",null]
+23 verbose parsed url { protocol: null,
+23 verbose parsed url   slashes: null,
+23 verbose parsed url   auth: null,
+23 verbose parsed url   host: null,
+23 verbose parsed url   port: null,
+23 verbose parsed url   hostname: null,
+23 verbose parsed url   hash: null,
+23 verbose parsed url   search: null,
+23 verbose parsed url   query: null,
+23 verbose parsed url   pathname: 'es6-shim@^0.33.3',
+23 verbose parsed url   path: 'es6-shim@^0.33.3',
+23 verbose parsed url   href: 'es6-shim@^0.33.3' }
+24 verbose cache add name="es6-promise" spec="^3.0.2" args=["es6-promise","^3.0.2"]
+25 verbose parsed url { protocol: null,
+25 verbose parsed url   slashes: null,
+25 verbose parsed url   auth: null,
+25 verbose parsed url   host: null,
+25 verbose parsed url   port: null,
+25 verbose parsed url   hostname: null,
+25 verbose parsed url   hash: null,
+25 verbose parsed url   search: null,
+25 verbose parsed url   query: null,
+25 verbose parsed url   pathname: '^3.0.2',
+25 verbose parsed url   path: '^3.0.2',
+25 verbose parsed url   href: '^3.0.2' }
+26 verbose addNamed [ 'es6-promise', '^3.0.2' ]
+27 verbose addNamed [ null, '>=3.0.2-0 <4.0.0-0' ]
+28 silly lockFile 1a67ba76-systemjs-0-19-22 systemjs@0.19.22
+29 verbose lock systemjs@0.19.22 /Users/avega/.npm/1a67ba76-systemjs-0-19-22.lock
+30 silly lockFile eacf8031-es6-promise-3-0-2 es6-promise@^3.0.2
+31 verbose lock es6-promise@^3.0.2 /Users/avega/.npm/eacf8031-es6-promise-3-0-2.lock
+32 verbose cache add [ 'reflect-metadata@0.1.2', null ]
+33 verbose cache add name=undefined spec="reflect-metadata@0.1.2" args=["reflect-metadata@0.1.2",null]
+34 verbose parsed url { protocol: null,
+34 verbose parsed url   slashes: null,
+34 verbose parsed url   auth: null,
+34 verbose parsed url   host: null,
+34 verbose parsed url   port: null,
+34 verbose parsed url   hostname: null,
+34 verbose parsed url   hash: null,
+34 verbose parsed url   search: null,
+34 verbose parsed url   query: null,
+34 verbose parsed url   pathname: 'reflect-metadata@0.1.2',
+34 verbose parsed url   path: 'reflect-metadata@0.1.2',
+34 verbose parsed url   href: 'reflect-metadata@0.1.2' }
+35 verbose cache add name="es6-shim" spec="^0.33.3" args=["es6-shim","^0.33.3"]
+36 verbose parsed url { protocol: null,
+36 verbose parsed url   slashes: null,
+36 verbose parsed url   auth: null,
+36 verbose parsed url   host: null,
+36 verbose parsed url   port: null,
+36 verbose parsed url   hostname: null,
+36 verbose parsed url   hash: null,
+36 verbose parsed url   search: null,
+36 verbose parsed url   query: null,
+36 verbose parsed url   pathname: '^0.33.3',
+36 verbose parsed url   path: '^0.33.3',
+36 verbose parsed url   href: '^0.33.3' }
+37 verbose addNamed [ 'es6-shim', '^0.33.3' ]
+38 verbose addNamed [ null, '>=0.33.3-0 <0.34.0-0' ]
+39 silly lockFile 2b85dc02-es6-shim-0-33-3 es6-shim@^0.33.3
+40 verbose lock es6-shim@^0.33.3 /Users/avega/.npm/2b85dc02-es6-shim-0-33-3.lock
+41 verbose cache add [ 'rxjs@5.0.0-beta.2', null ]
+42 verbose cache add name=undefined spec="rxjs@5.0.0-beta.2" args=["rxjs@5.0.0-beta.2",null]
+43 verbose parsed url { protocol: null,
+43 verbose parsed url   slashes: null,
+43 verbose parsed url   auth: null,
+43 verbose parsed url   host: null,
+43 verbose parsed url   port: null,
+43 verbose parsed url   hostname: null,
+43 verbose parsed url   hash: null,
+43 verbose parsed url   search: null,
+43 verbose parsed url   query: null,
+43 verbose parsed url   pathname: 'rxjs@5.0.0-beta.2',
+43 verbose parsed url   path: 'rxjs@5.0.0-beta.2',
+43 verbose parsed url   href: 'rxjs@5.0.0-beta.2' }
+44 verbose cache add name="reflect-metadata" spec="0.1.2" args=["reflect-metadata","0.1.2"]
+45 verbose parsed url { protocol: null,
+45 verbose parsed url   slashes: null,
+45 verbose parsed url   auth: null,
+45 verbose parsed url   host: null,
+45 verbose parsed url   port: null,
+45 verbose parsed url   hostname: null,
+45 verbose parsed url   hash: null,
+45 verbose parsed url   search: null,
+45 verbose parsed url   query: null,
+45 verbose parsed url   pathname: '0.1.2',
+45 verbose parsed url   path: '0.1.2',
+45 verbose parsed url   href: '0.1.2' }
+46 verbose addNamed [ 'reflect-metadata', '0.1.2' ]
+47 verbose addNamed [ '0.1.2', '0.1.2' ]
+48 silly lockFile 3443f81d-reflect-metadata-0-1-2 reflect-metadata@0.1.2
+49 verbose lock reflect-metadata@0.1.2 /Users/avega/.npm/3443f81d-reflect-metadata-0-1-2.lock
+50 verbose cache add name="rxjs" spec="5.0.0-beta.2" args=["rxjs","5.0.0-beta.2"]
+51 verbose parsed url { protocol: null,
+51 verbose parsed url   slashes: null,
+51 verbose parsed url   auth: null,
+51 verbose parsed url   host: null,
+51 verbose parsed url   port: null,
+51 verbose parsed url   hostname: null,
+51 verbose parsed url   hash: null,
+51 verbose parsed url   search: null,
+51 verbose parsed url   query: null,
+51 verbose parsed url   pathname: '5.0.0-beta.2',
+51 verbose parsed url   path: '5.0.0-beta.2',
+51 verbose parsed url   href: '5.0.0-beta.2' }
+52 verbose addNamed [ 'rxjs', '5.0.0-beta.2' ]
+53 verbose addNamed [ '5.0.0-beta.2', '5.0.0-beta.2' ]
+54 silly lockFile 0a158e3a-rxjs-5-0-0-beta-2 rxjs@5.0.0-beta.2
+55 verbose lock rxjs@5.0.0-beta.2 /Users/avega/.npm/0a158e3a-rxjs-5-0-0-beta-2.lock
+56 verbose cache add [ 'zone.js@0.5.15', null ]
+57 verbose cache add name=undefined spec="zone.js@0.5.15" args=["zone.js@0.5.15",null]
+58 verbose parsed url { protocol: null,
+58 verbose parsed url   slashes: null,
+58 verbose parsed url   auth: null,
+58 verbose parsed url   host: null,
+58 verbose parsed url   port: null,
+58 verbose parsed url   hostname: null,
+58 verbose parsed url   hash: null,
+58 verbose parsed url   search: null,
+58 verbose parsed url   query: null,
+58 verbose parsed url   pathname: 'zone.js@0.5.15',
+58 verbose parsed url   path: 'zone.js@0.5.15',
+58 verbose parsed url   href: 'zone.js@0.5.15' }
+59 verbose cache add [ 'concurrently@^2.0.0', null ]
+60 verbose cache add name=undefined spec="concurrently@^2.0.0" args=["concurrently@^2.0.0",null]
+61 verbose parsed url { protocol: null,
+61 verbose parsed url   slashes: null,
+61 verbose parsed url   auth: null,
+61 verbose parsed url   host: null,
+61 verbose parsed url   port: null,
+61 verbose parsed url   hostname: null,
+61 verbose parsed url   hash: null,
+61 verbose parsed url   search: null,
+61 verbose parsed url   query: null,
+61 verbose parsed url   pathname: 'concurrently@^2.0.0',
+61 verbose parsed url   path: 'concurrently@^2.0.0',
+61 verbose parsed url   href: 'concurrently@^2.0.0' }
+62 verbose cache add [ 'lite-server@^2.1.0', null ]
+63 verbose cache add name=undefined spec="lite-server@^2.1.0" args=["lite-server@^2.1.0",null]
+64 verbose parsed url { protocol: null,
+64 verbose parsed url   slashes: null,
+64 verbose parsed url   auth: null,
+64 verbose parsed url   host: null,
+64 verbose parsed url   port: null,
+64 verbose parsed url   hostname: null,
+64 verbose parsed url   hash: null,
+64 verbose parsed url   search: null,
+64 verbose parsed url   query: null,
+64 verbose parsed url   pathname: 'lite-server@^2.1.0',
+64 verbose parsed url   path: 'lite-server@^2.1.0',
+64 verbose parsed url   href: 'lite-server@^2.1.0' }
+65 verbose cache add name="zone.js" spec="0.5.15" args=["zone.js","0.5.15"]
+66 verbose parsed url { protocol: null,
+66 verbose parsed url   slashes: null,
+66 verbose parsed url   auth: null,
+66 verbose parsed url   host: null,
+66 verbose parsed url   port: null,
+66 verbose parsed url   hostname: null,
+66 verbose parsed url   hash: null,
+66 verbose parsed url   search: null,
+66 verbose parsed url   query: null,
+66 verbose parsed url   pathname: '0.5.15',
+66 verbose parsed url   path: '0.5.15',
+66 verbose parsed url   href: '0.5.15' }
+67 verbose addNamed [ 'zone.js', '0.5.15' ]
+68 verbose addNamed [ '0.5.15', '0.5.15' ]
+69 silly lockFile e801f833-zone-js-0-5-15 zone.js@0.5.15
+70 verbose lock zone.js@0.5.15 /Users/avega/.npm/e801f833-zone-js-0-5-15.lock
+71 silly addNameRange { name: 'es6-promise',
+71 silly addNameRange   range: '>=3.0.2-0 <4.0.0-0',
+71 silly addNameRange   hasData: false }
+72 silly addNameRange { name: 'es6-shim',
+72 silly addNameRange   range: '>=0.33.3-0 <0.34.0-0',
+72 silly addNameRange   hasData: false }
+73 verbose cache add [ 'typescript@^1.8.2', null ]
+74 verbose cache add name=undefined spec="typescript@^1.8.2" args=["typescript@^1.8.2",null]
+75 verbose parsed url { protocol: null,
+75 verbose parsed url   slashes: null,
+75 verbose parsed url   auth: null,
+75 verbose parsed url   host: null,
+75 verbose parsed url   port: null,
+75 verbose parsed url   hostname: null,
+75 verbose parsed url   hash: null,
+75 verbose parsed url   search: null,
+75 verbose parsed url   query: null,
+75 verbose parsed url   pathname: 'typescript@^1.8.2',
+75 verbose parsed url   path: 'typescript@^1.8.2',
+75 verbose parsed url   href: 'typescript@^1.8.2' }
+76 verbose cache add [ 'typings@^0.6.8', null ]
+77 verbose cache add name=undefined spec="typings@^0.6.8" args=["typings@^0.6.8",null]
+78 verbose parsed url { protocol: null,
+78 verbose parsed url   slashes: null,
+78 verbose parsed url   auth: null,
+78 verbose parsed url   host: null,
+78 verbose parsed url   port: null,
+78 verbose parsed url   hostname: null,
+78 verbose parsed url   hash: null,
+78 verbose parsed url   search: null,
+78 verbose parsed url   query: null,
+78 verbose parsed url   pathname: 'typings@^0.6.8',
+78 verbose parsed url   path: 'typings@^0.6.8',
+78 verbose parsed url   href: 'typings@^0.6.8' }
+79 verbose cache add [ 'angular2@2.0.0-beta.8', null ]
+80 verbose cache add name=undefined spec="angular2@2.0.0-beta.8" args=["angular2@2.0.0-beta.8",null]
+81 verbose parsed url { protocol: null,
+81 verbose parsed url   slashes: null,
+81 verbose parsed url   auth: null,
+81 verbose parsed url   host: null,
+81 verbose parsed url   port: null,
+81 verbose parsed url   hostname: null,
+81 verbose parsed url   hash: null,
+81 verbose parsed url   search: null,
+81 verbose parsed url   query: null,
+81 verbose parsed url   pathname: 'angular2@2.0.0-beta.8',
+81 verbose parsed url   path: 'angular2@2.0.0-beta.8',
+81 verbose parsed url   href: 'angular2@2.0.0-beta.8' }
+82 verbose cache add name="concurrently" spec="^2.0.0" args=["concurrently","^2.0.0"]
+83 verbose parsed url { protocol: null,
+83 verbose parsed url   slashes: null,
+83 verbose parsed url   auth: null,
+83 verbose parsed url   host: null,
+83 verbose parsed url   port: null,
+83 verbose parsed url   hostname: null,
+83 verbose parsed url   hash: null,
+83 verbose parsed url   search: null,
+83 verbose parsed url   query: null,
+83 verbose parsed url   pathname: '^2.0.0',
+83 verbose parsed url   path: '^2.0.0',
+83 verbose parsed url   href: '^2.0.0' }
+84 verbose addNamed [ 'concurrently', '^2.0.0' ]
+85 verbose addNamed [ null, '>=2.0.0-0 <3.0.0-0' ]
+86 silly lockFile fbc10fe1-concurrently-2-0-0 concurrently@^2.0.0
+87 verbose lock concurrently@^2.0.0 /Users/avega/.npm/fbc10fe1-concurrently-2-0-0.lock
+88 verbose cache add name="lite-server" spec="^2.1.0" args=["lite-server","^2.1.0"]
+89 verbose parsed url { protocol: null,
+89 verbose parsed url   slashes: null,
+89 verbose parsed url   auth: null,
+89 verbose parsed url   host: null,
+89 verbose parsed url   port: null,
+89 verbose parsed url   hostname: null,
+89 verbose parsed url   hash: null,
+89 verbose parsed url   search: null,
+89 verbose parsed url   query: null,
+89 verbose parsed url   pathname: '^2.1.0',
+89 verbose parsed url   path: '^2.1.0',
+89 verbose parsed url   href: '^2.1.0' }
+90 verbose addNamed [ 'lite-server', '^2.1.0' ]
+91 verbose addNamed [ null, '>=2.1.0-0 <3.0.0-0' ]
+92 silly lockFile 20681e3f-lite-server-2-1-0 lite-server@^2.1.0
+93 verbose lock lite-server@^2.1.0 /Users/avega/.npm/20681e3f-lite-server-2-1-0.lock
+94 verbose request where is /systemjs
+95 verbose request registry https://registry.npmjs.org/
+96 verbose request id 94de47ad3a5eec07
+97 verbose url raw /systemjs
+98 verbose url resolving [ 'https://registry.npmjs.org/', './systemjs' ]
+99 verbose url resolved https://registry.npmjs.org/systemjs
+100 verbose request where is https://registry.npmjs.org/systemjs
+101 info trying registry request attempt 1 at 20:10:20
+102 http GET https://registry.npmjs.org/systemjs
+103 verbose cache add name="typescript" spec="^1.8.2" args=["typescript","^1.8.2"]
+104 verbose parsed url { protocol: null,
+104 verbose parsed url   slashes: null,
+104 verbose parsed url   auth: null,
+104 verbose parsed url   host: null,
+104 verbose parsed url   port: null,
+104 verbose parsed url   hostname: null,
+104 verbose parsed url   hash: null,
+104 verbose parsed url   search: null,
+104 verbose parsed url   query: null,
+104 verbose parsed url   pathname: '^1.8.2',
+104 verbose parsed url   path: '^1.8.2',
+104 verbose parsed url   href: '^1.8.2' }
+105 verbose addNamed [ 'typescript', '^1.8.2' ]
+106 verbose addNamed [ null, '>=1.8.2-0 <2.0.0-0' ]
+107 silly lockFile 1a11b4a5-typescript-1-8-2 typescript@^1.8.2
+108 verbose lock typescript@^1.8.2 /Users/avega/.npm/1a11b4a5-typescript-1-8-2.lock
+109 verbose request where is /es6-shim
+110 verbose request registry https://registry.npmjs.org/
+111 verbose url raw /es6-shim
+112 verbose url resolving [ 'https://registry.npmjs.org/', './es6-shim' ]
+113 verbose url resolved https://registry.npmjs.org/es6-shim
+114 verbose request where is https://registry.npmjs.org/es6-shim
+115 info trying registry request attempt 1 at 20:10:20
+116 http GET https://registry.npmjs.org/es6-shim
+117 verbose request where is /reflect-metadata
+118 verbose request registry https://registry.npmjs.org/
+119 verbose url raw /reflect-metadata
+120 verbose url resolving [ 'https://registry.npmjs.org/', './reflect-metadata' ]
+121 verbose url resolved https://registry.npmjs.org/reflect-metadata
+122 verbose request where is https://registry.npmjs.org/reflect-metadata
+123 info trying registry request attempt 1 at 20:10:20
+124 http GET https://registry.npmjs.org/reflect-metadata
+125 verbose cache add name="typings" spec="^0.6.8" args=["typings","^0.6.8"]
+126 verbose parsed url { protocol: null,
+126 verbose parsed url   slashes: null,
+126 verbose parsed url   auth: null,
+126 verbose parsed url   host: null,
+126 verbose parsed url   port: null,
+126 verbose parsed url   hostname: null,
+126 verbose parsed url   hash: null,
+126 verbose parsed url   search: null,
+126 verbose parsed url   query: null,
+126 verbose parsed url   pathname: '^0.6.8',
+126 verbose parsed url   path: '^0.6.8',
+126 verbose parsed url   href: '^0.6.8' }
+127 verbose addNamed [ 'typings', '^0.6.8' ]
+128 verbose addNamed [ null, '>=0.6.8-0 <0.7.0-0' ]
+129 silly lockFile eb17ec3b-typings-0-6-8 typings@^0.6.8
+130 verbose lock typings@^0.6.8 /Users/avega/.npm/eb17ec3b-typings-0-6-8.lock
+131 verbose cache add name="angular2" spec="2.0.0-beta.8" args=["angular2","2.0.0-beta.8"]
+132 verbose parsed url { protocol: null,
+132 verbose parsed url   slashes: null,
+132 verbose parsed url   auth: null,
+132 verbose parsed url   host: null,
+132 verbose parsed url   port: null,
+132 verbose parsed url   hostname: null,
+132 verbose parsed url   hash: null,
+132 verbose parsed url   search: null,
+132 verbose parsed url   query: null,
+132 verbose parsed url   pathname: '2.0.0-beta.8',
+132 verbose parsed url   path: '2.0.0-beta.8',
+132 verbose parsed url   href: '2.0.0-beta.8' }
+133 verbose addNamed [ 'angular2', '2.0.0-beta.8' ]
+134 verbose addNamed [ '2.0.0-beta.8', '2.0.0-beta.8' ]
+135 silly lockFile a1260297-angular2-2-0-0-beta-8 angular2@2.0.0-beta.8
+136 verbose lock angular2@2.0.0-beta.8 /Users/avega/.npm/a1260297-angular2-2-0-0-beta-8.lock
+137 verbose request where is /rxjs
+138 verbose request registry https://registry.npmjs.org/
+139 verbose url raw /rxjs
+140 verbose url resolving [ 'https://registry.npmjs.org/', './rxjs' ]
+141 verbose url resolved https://registry.npmjs.org/rxjs
+142 verbose request where is https://registry.npmjs.org/rxjs
+143 info trying registry request attempt 1 at 20:10:20
+144 http GET https://registry.npmjs.org/rxjs
+145 silly addNameRange { name: 'concurrently',
+145 silly addNameRange   range: '>=2.0.0-0 <3.0.0-0',
+145 silly addNameRange   hasData: false }
+146 silly addNameRange { name: 'lite-server',
+146 silly addNameRange   range: '>=2.1.0-0 <3.0.0-0',
+146 silly addNameRange   hasData: false }
+147 silly addNameRange { name: 'typescript',
+147 silly addNameRange   range: '>=1.8.2-0 <2.0.0-0',
+147 silly addNameRange   hasData: false }
+148 silly addNameRange { name: 'typings', range: '>=0.6.8-0 <0.7.0-0', hasData: false }
+149 verbose request where is /zone.js
+150 verbose request registry https://registry.npmjs.org/
+151 verbose url raw /zone.js
+152 verbose url resolving [ 'https://registry.npmjs.org/', './zone.js' ]
+153 verbose url resolved https://registry.npmjs.org/zone.js
+154 verbose request where is https://registry.npmjs.org/zone.js
+155 info trying registry request attempt 1 at 20:10:20
+156 http GET https://registry.npmjs.org/zone.js
+157 verbose request where is /lite-server
+158 verbose request registry https://registry.npmjs.org/
+159 verbose url raw /lite-server
+160 verbose url resolving [ 'https://registry.npmjs.org/', './lite-server' ]
+161 verbose url resolved https://registry.npmjs.org/lite-server
+162 verbose request where is https://registry.npmjs.org/lite-server
+163 info trying registry request attempt 1 at 20:10:20
+164 http GET https://registry.npmjs.org/lite-server
+165 verbose request where is /concurrently
+166 verbose request registry https://registry.npmjs.org/
+167 verbose url raw /concurrently
+168 verbose url resolving [ 'https://registry.npmjs.org/', './concurrently' ]
+169 verbose url resolved https://registry.npmjs.org/concurrently
+170 verbose request where is https://registry.npmjs.org/concurrently
+171 info trying registry request attempt 1 at 20:10:20
+172 http GET https://registry.npmjs.org/concurrently
+173 verbose request where is /typescript
+174 verbose request registry https://registry.npmjs.org/
+175 verbose url raw /typescript
+176 verbose url resolving [ 'https://registry.npmjs.org/', './typescript' ]
+177 verbose url resolved https://registry.npmjs.org/typescript
+178 verbose request where is https://registry.npmjs.org/typescript
+179 info trying registry request attempt 1 at 20:10:20
+180 http GET https://registry.npmjs.org/typescript
+181 verbose request where is /typings
+182 verbose request registry https://registry.npmjs.org/
+183 verbose url raw /typings
+184 verbose url resolving [ 'https://registry.npmjs.org/', './typings' ]
+185 verbose url resolved https://registry.npmjs.org/typings
+186 verbose request where is https://registry.npmjs.org/typings
+187 info trying registry request attempt 1 at 20:10:20
+188 http GET https://registry.npmjs.org/typings
+189 verbose request where is /angular2
+190 verbose request registry https://registry.npmjs.org/
+191 verbose url raw /angular2
+192 verbose url resolving [ 'https://registry.npmjs.org/', './angular2' ]
+193 verbose url resolved https://registry.npmjs.org/angular2
+194 verbose request where is https://registry.npmjs.org/angular2
+195 info trying registry request attempt 1 at 20:10:20
+196 http GET https://registry.npmjs.org/angular2
+197 verbose request where is /es6-promise
+198 verbose request registry https://registry.npmjs.org/
+199 verbose url raw /es6-promise
+200 verbose url resolving [ 'https://registry.npmjs.org/', './es6-promise' ]
+201 verbose url resolved https://registry.npmjs.org/es6-promise
+202 verbose request where is https://registry.npmjs.org/es6-promise
+203 info trying registry request attempt 1 at 20:10:20
+204 verbose etag "BB3M6NNGY3NPQO2RJ728YRYB4"
+205 http GET https://registry.npmjs.org/es6-promise
+206 http 200 https://registry.npmjs.org/rxjs
+207 silly registry.get cb [ 200,
+207 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+207 silly registry.get     etag: '"A5XEBGVRHVR0BRN8OSE7BRG4S"',
+207 silly registry.get     'content-type': 'application/json',
+207 silly registry.get     'cache-control': 'max-age=300',
+207 silly registry.get     'content-length': '30241',
+207 silly registry.get     'accept-ranges': 'bytes',
+207 silly registry.get     date: 'Mon, 07 Mar 2016 04:10:20 GMT',
+207 silly registry.get     via: '1.1 varnish',
+207 silly registry.get     age: '160',
+207 silly registry.get     connection: 'keep-alive',
+207 silly registry.get     'x-served-by': 'cache-sjc3128-SJC',
+207 silly registry.get     'x-cache': 'HIT',
+207 silly registry.get     'x-cache-hits': '1',
+207 silly registry.get     'x-timer': 'S1457323820.563739,VS0,VE0',
+207 silly registry.get     vary: 'Accept' } ]
+208 silly lockFile ae0da9a0-s-org-rxjs-rxjs-5-0-0-beta-2-tgz https://registry.npmjs.org/rxjs/-/rxjs-5.0.0-beta.2.tgz
+209 verbose lock https://registry.npmjs.org/rxjs/-/rxjs-5.0.0-beta.2.tgz /Users/avega/.npm/ae0da9a0-s-org-rxjs-rxjs-5-0-0-beta-2-tgz.lock
+210 verbose addRemoteTarball [ 'https://registry.npmjs.org/rxjs/-/rxjs-5.0.0-beta.2.tgz',
+210 verbose addRemoteTarball   'f775df8b8598c0657031e5ff8ff8251e1c5c0185' ]
+211 http 200 https://registry.npmjs.org/reflect-metadata
+212 silly registry.get cb [ 200,
+212 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+212 silly registry.get     etag: '"ALR0H8W23JMSDAF0WMBCAYP5O"',
+212 silly registry.get     'content-type': 'application/json',
+212 silly registry.get     'cache-control': 'max-age=300',
+212 silly registry.get     'content-length': '16919',
+212 silly registry.get     'accept-ranges': 'bytes',
+212 silly registry.get     date: 'Mon, 07 Mar 2016 04:10:20 GMT',
+212 silly registry.get     via: '1.1 varnish',
+212 silly registry.get     age: '210',
+212 silly registry.get     connection: 'keep-alive',
+212 silly registry.get     'x-served-by': 'cache-sjc3127-SJC',
+212 silly registry.get     'x-cache': 'HIT',
+212 silly registry.get     'x-cache-hits': '1',
+212 silly registry.get     'x-timer': 'S1457323820.573868,VS0,VE0',
+212 silly registry.get     vary: 'Accept' } ]
+213 silly lockFile cd27abb7-adata-reflect-metadata-0-1-2-tgz https://registry.npmjs.org/reflect-metadata/-/reflect-metadata-0.1.2.tgz
+214 verbose lock https://registry.npmjs.org/reflect-metadata/-/reflect-metadata-0.1.2.tgz /Users/avega/.npm/cd27abb7-adata-reflect-metadata-0-1-2-tgz.lock
+215 info retry fetch attempt 1 at 20:10:21
+216 verbose fetch to= /var/folders/hb/rnv8wxh93m35d52jb9t_wpyhlr1vvh/T/npm-9509-hTPUetBO/registry.npmjs.org/rxjs/-/rxjs-5.0.0-beta.2.tgz
+217 http GET https://registry.npmjs.org/rxjs/-/rxjs-5.0.0-beta.2.tgz
+218 verbose addRemoteTarball [ 'https://registry.npmjs.org/reflect-metadata/-/reflect-metadata-0.1.2.tgz',
+218 verbose addRemoteTarball   'ea23e5823dc830f292822bd3da9b89fd57bffb03' ]
+219 info retry fetch attempt 1 at 20:10:21
+220 verbose fetch to= /var/folders/hb/rnv8wxh93m35d52jb9t_wpyhlr1vvh/T/npm-9509-hTPUetBO/registry.npmjs.org/reflect-metadata/-/reflect-metadata-0.1.2.tgz
+221 http GET https://registry.npmjs.org/reflect-metadata/-/reflect-metadata-0.1.2.tgz
+222 http 200 https://registry.npmjs.org/zone.js
+223 silly registry.get cb [ 200,
+223 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+223 silly registry.get     etag: '"F05IHQ2J5T9M066BWFC458WLJ"',
+223 silly registry.get     'content-type': 'application/json',
+223 silly registry.get     'cache-control': 'max-age=300',
+223 silly registry.get     'content-length': '52042',
+223 silly registry.get     'accept-ranges': 'bytes',
+223 silly registry.get     date: 'Mon, 07 Mar 2016 04:10:20 GMT',
+223 silly registry.get     via: '1.1 varnish',
+223 silly registry.get     age: '160',
+223 silly registry.get     connection: 'keep-alive',
+223 silly registry.get     'x-served-by': 'cache-sjc3130-SJC',
+223 silly registry.get     'x-cache': 'HIT',
+223 silly registry.get     'x-cache-hits': '1',
+223 silly registry.get     'x-timer': 'S1457323820.576885,VS0,VE0',
+223 silly registry.get     vary: 'Accept' } ]
+224 silly lockFile 22cbb087-s-org-zone-js-zone-js-0-5-15-tgz https://registry.npmjs.org/zone.js/-/zone.js-0.5.15.tgz
+225 verbose lock https://registry.npmjs.org/zone.js/-/zone.js-0.5.15.tgz /Users/avega/.npm/22cbb087-s-org-zone-js-zone-js-0-5-15-tgz.lock
+226 verbose addRemoteTarball [ 'https://registry.npmjs.org/zone.js/-/zone.js-0.5.15.tgz',
+226 verbose addRemoteTarball   'f195b56ad0b7874c3060c3a5e61b4e234ea1b059' ]
+227 info retry fetch attempt 1 at 20:10:21
+228 verbose fetch to= /var/folders/hb/rnv8wxh93m35d52jb9t_wpyhlr1vvh/T/npm-9509-hTPUetBO/registry.npmjs.org/zone.js/-/zone.js-0.5.15.tgz
+229 http GET https://registry.npmjs.org/zone.js/-/zone.js-0.5.15.tgz
+230 http 200 https://registry.npmjs.org/systemjs
+231 silly registry.get cb [ 200,
+231 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+231 silly registry.get     etag: '"DSOBQY0JCS582S14WQ4L8XNGP"',
+231 silly registry.get     'content-type': 'application/json',
+231 silly registry.get     'cache-control': 'max-age=300',
+231 silly registry.get     'content-length': '124230',
+231 silly registry.get     'accept-ranges': 'bytes',
+231 silly registry.get     date: 'Mon, 07 Mar 2016 04:10:20 GMT',
+231 silly registry.get     via: '1.1 varnish',
+231 silly registry.get     age: '160',
+231 silly registry.get     connection: 'keep-alive',
+231 silly registry.get     'x-served-by': 'cache-sjc3121-SJC',
+231 silly registry.get     'x-cache': 'HIT',
+231 silly registry.get     'x-cache-hits': '1',
+231 silly registry.get     'x-timer': 'S1457323820.570785,VS0,VE0',
+231 silly registry.get     vary: 'Accept' } ]
+232 http 200 https://registry.npmjs.org/lite-server
+233 silly registry.get cb [ 200,
+233 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+233 silly registry.get     etag: '"82ZA1R2X55IR8WGGCHQIZTO3S"',
+233 silly registry.get     'content-type': 'application/json',
+233 silly registry.get     'cache-control': 'max-age=300',
+233 silly registry.get     'content-length': '22479',
+233 silly registry.get     'accept-ranges': 'bytes',
+233 silly registry.get     date: 'Mon, 07 Mar 2016 04:10:20 GMT',
+233 silly registry.get     via: '1.1 varnish',
+233 silly registry.get     age: '0',
+233 silly registry.get     connection: 'keep-alive',
+233 silly registry.get     'x-served-by': 'cache-sjc3128-SJC',
+233 silly registry.get     'x-cache': 'HIT',
+233 silly registry.get     'x-cache-hits': '1',
+233 silly registry.get     'x-timer': 'S1457323820.620972,VS0,VE44',
+233 silly registry.get     vary: 'Accept' } ]
+234 http 200 https://registry.npmjs.org/concurrently
+235 silly registry.get cb [ 200,
+235 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+235 silly registry.get     etag: '"RBEV298WP2NSGAXN2WLNKIGS"',
+235 silly registry.get     'content-type': 'application/json',
+235 silly registry.get     'cache-control': 'max-age=300',
+235 silly registry.get     'content-length': '15388',
+235 silly registry.get     'accept-ranges': 'bytes',
+235 silly registry.get     date: 'Mon, 07 Mar 2016 04:10:20 GMT',
+235 silly registry.get     via: '1.1 varnish',
+235 silly registry.get     age: '0',
+235 silly registry.get     connection: 'keep-alive',
+235 silly registry.get     'x-served-by': 'cache-sjc3127-SJC',
+235 silly registry.get     'x-cache': 'HIT',
+235 silly registry.get     'x-cache-hits': '1',
+235 silly registry.get     'x-timer': 'S1457323820.631617,VS0,VE46',
+235 silly registry.get     vary: 'Accept' } ]
+236 silly addNameRange number 2 { name: 'concurrently',
+236 silly addNameRange   range: '>=2.0.0-0 <3.0.0-0',
+236 silly addNameRange   hasData: true }
+237 silly addNameRange versions [ 'concurrently',
+237 silly addNameRange   [ '0.0.2',
+237 silly addNameRange     '0.0.3',
+237 silly addNameRange     '0.0.4',
+237 silly addNameRange     '0.0.5',
+237 silly addNameRange     '0.1.0',
+237 silly addNameRange     '0.1.1',
+237 silly addNameRange     '1.0.0',
+237 silly addNameRange     '2.0.0' ] ]
+238 verbose addNamed [ 'concurrently', '2.0.0' ]
+239 verbose addNamed [ '2.0.0', '2.0.0' ]
+240 silly lockFile 7585b787-concurrently-2-0-0 concurrently@2.0.0
+241 verbose lock concurrently@2.0.0 /Users/avega/.npm/7585b787-concurrently-2-0-0.lock
+242 silly addNameRange number 2 { name: 'lite-server',
+242 silly addNameRange   range: '>=2.1.0-0 <3.0.0-0',
+242 silly addNameRange   hasData: true }
+243 silly addNameRange versions [ 'lite-server',
+243 silly addNameRange   [ '1.0.0',
+243 silly addNameRange     '1.0.1',
+243 silly addNameRange     '1.0.3',
+243 silly addNameRange     '1.1.0',
+243 silly addNameRange     '1.2.0',
+243 silly addNameRange     '1.3.0',
+243 silly addNameRange     '1.3.1',
+243 silly addNameRange     '1.3.2',
+243 silly addNameRange     '1.3.3',
+243 silly addNameRange     '1.3.4',
+243 silly addNameRange     '2.0.0',
+243 silly addNameRange     '2.0.1',
+243 silly addNameRange     '2.1.0' ] ]
+244 verbose addNamed [ 'lite-server', '2.1.0' ]
+245 verbose addNamed [ '2.1.0', '2.1.0' ]
+246 silly lockFile 41ab5d0d-lite-server-2-1-0 lite-server@2.1.0
+247 verbose lock lite-server@2.1.0 /Users/avega/.npm/41ab5d0d-lite-server-2-1-0.lock
+248 silly lockFile b33905b7-rg-systemjs-systemjs-0-19-22-tgz https://registry.npmjs.org/systemjs/-/systemjs-0.19.22.tgz
+249 verbose lock https://registry.npmjs.org/systemjs/-/systemjs-0.19.22.tgz /Users/avega/.npm/b33905b7-rg-systemjs-systemjs-0-19-22-tgz.lock
+250 silly lockFile bc8bbc94-currently-concurrently-2-0-0-tgz https://registry.npmjs.org/concurrently/-/concurrently-2.0.0.tgz
+251 verbose lock https://registry.npmjs.org/concurrently/-/concurrently-2.0.0.tgz /Users/avega/.npm/bc8bbc94-currently-concurrently-2-0-0-tgz.lock
+252 verbose addRemoteTarball [ 'https://registry.npmjs.org/systemjs/-/systemjs-0.19.22.tgz',
+252 verbose addRemoteTarball   '30818d47662e4f443494035b24960c666977d152' ]
+253 silly lockFile 19074e9e-ite-server-lite-server-2-1-0-tgz https://registry.npmjs.org/lite-server/-/lite-server-2.1.0.tgz
+254 verbose lock https://registry.npmjs.org/lite-server/-/lite-server-2.1.0.tgz /Users/avega/.npm/19074e9e-ite-server-lite-server-2-1-0-tgz.lock
+255 verbose addRemoteTarball [ 'https://registry.npmjs.org/concurrently/-/concurrently-2.0.0.tgz',
+255 verbose addRemoteTarball   '117788a9e994e40b92df7e302f5efc5a6c3e6ed8' ]
+256 verbose addRemoteTarball [ 'https://registry.npmjs.org/lite-server/-/lite-server-2.1.0.tgz',
+256 verbose addRemoteTarball   'df68c623729172905160a1792b3690c0721174f8' ]
+257 info retry fetch attempt 1 at 20:10:21
+258 verbose fetch to= /var/folders/hb/rnv8wxh93m35d52jb9t_wpyhlr1vvh/T/npm-9509-hTPUetBO/registry.npmjs.org/systemjs/-/systemjs-0.19.22.tgz
+259 info retry fetch attempt 1 at 20:10:21
+260 verbose fetch to= /var/folders/hb/rnv8wxh93m35d52jb9t_wpyhlr1vvh/T/npm-9509-hTPUetBO/registry.npmjs.org/concurrently/-/concurrently-2.0.0.tgz
+261 http 200 https://registry.npmjs.org/es6-shim
+262 silly registry.get cb [ 200,
+262 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+262 silly registry.get     etag: '"EH5WMZZJWYJFAD2EJG6PIP3XE"',
+262 silly registry.get     'content-type': 'application/json',
+262 silly registry.get     'cache-control': 'max-age=300',
+262 silly registry.get     'content-length': '201935',
+262 silly registry.get     'accept-ranges': 'bytes',
+262 silly registry.get     date: 'Mon, 07 Mar 2016 04:10:20 GMT',
+262 silly registry.get     via: '1.1 varnish',
+262 silly registry.get     age: '215',
+262 silly registry.get     connection: 'keep-alive',
+262 silly registry.get     'x-served-by': 'cache-sjc3124-SJC',
+262 silly registry.get     'x-cache': 'HIT',
+262 silly registry.get     'x-cache-hits': '1',
+262 silly registry.get     'x-timer': 'S1457323820.572073,VS0,VE0',
+262 silly registry.get     vary: 'Accept' } ]
+263 http GET https://registry.npmjs.org/systemjs/-/systemjs-0.19.22.tgz
+264 info retry fetch attempt 1 at 20:10:21
+265 verbose fetch to= /var/folders/hb/rnv8wxh93m35d52jb9t_wpyhlr1vvh/T/npm-9509-hTPUetBO/registry.npmjs.org/lite-server/-/lite-server-2.1.0.tgz
+266 http GET https://registry.npmjs.org/concurrently/-/concurrently-2.0.0.tgz
+267 http GET https://registry.npmjs.org/lite-server/-/lite-server-2.1.0.tgz
+268 silly addNameRange number 2 { name: 'es6-shim',
+268 silly addNameRange   range: '>=0.33.3-0 <0.34.0-0',
+268 silly addNameRange   hasData: true }
+269 silly addNameRange versions [ 'es6-shim',
+269 silly addNameRange   [ '0.1.0',
+269 silly addNameRange     '0.2.0',
+269 silly addNameRange     '0.2.1',
+269 silly addNameRange     '0.3.0',
+269 silly addNameRange     '0.3.1',
+269 silly addNameRange     '0.4.0',
+269 silly addNameRange     '0.4.1',
+269 silly addNameRange     '0.5.0',
+269 silly addNameRange     '0.5.1',
+269 silly addNameRange     '0.5.2',
+269 silly addNameRange     '0.5.3',
+269 silly addNameRange     '0.6.0',
+269 silly addNameRange     '0.7.0',
+269 silly addNameRange     '0.8.0',
+269 silly addNameRange     '0.9.0',
+269 silly addNameRange     '0.9.1',
+269 silly addNameRange     '0.9.2',
+269 silly addNameRange     '0.9.3',
+269 silly addNameRange     '0.10.0',
+269 silly addNameRange     '0.10.1',
+269 silly addNameRange     '0.11.0',
+269 silly addNameRange     '0.11.1',
+269 silly addNameRange     '0.12.0',
+269 silly addNameRange     '0.13.0',
+269 silly addNameRange     '0.14.0',
+269 silly addNameRange     '0.15.0',
+269 silly addNameRange     '0.15.1',
+269 silly addNameRange     '0.16.0',
+269 silly addNameRange     '0.17.0',
+269 silly addNameRange     '0.18.0',
+269 silly addNameRange     '0.19.0',
+269 silly addNameRange     '0.19.1',
+269 silly addNameRange     '0.19.2',
+269 silly addNameRange     '0.20.0',
+269 silly addNameRange     '0.20.1',
+269 silly addNameRange     '0.20.2',
+269 silly addNameRange     '0.20.3',
+269 silly addNameRange     '0.20.4',
+269 silly addNameRange     '0.21.0',
+269 silly addNameRange     '0.21.1',
+269 silly addNameRange     '0.22.0',
+269 silly addNameRange     '0.22.1',
+269 silly addNameRange     '0.22.2',
+269 silly addNameRange     '0.23.0',
+269 silly addNameRange     '0.24.0',
+269 silly addNameRange     '0.25.0',
+269 silly addNameRange     '0.25.1',
+269 silly addNameRange     '0.25.2',
+269 silly addNameRange     '0.25.3',
+269 silly addNameRange     '0.26.0',
+269 silly addNameRange     '0.26.1',
+269 silly addNameRange     '0.27.1',
+269 silly addNameRange     '0.28.1',
+269 silly addNameRange     '0.29.0',
+269 silly addNameRange     '0.30.0',
+269 silly addNameRange     '0.31.0',
+269 silly addNameRange     '0.31.1',
+269 silly addNameRange     '0.31.2',
+269 silly addNameRange     '0.31.3',
+269 silly addNameRange     '0.32.0',
+269 silly addNameRange     '0.32.1',
+269 silly addNameRange     '0.32.2',
+269 silly addNameRange     '0.33.0',
+269 silly addNameRange     '0.33.1',
+269 silly addNameRange     '0.33.2',
+269 silly addNameRange     '0.33.3',
+269 silly addNameRange     '0.33.4',
+269 silly addNameRange     '0.33.5',
+269 silly addNameRange     '0.33.6',
+269 silly addNameRange     '0.33.7',
+269 silly addNameRange     '0.33.8',
+269 silly addNameRange     '0.33.9',
+269 silly addNameRange     '0.33.10',
+269 silly addNameRange     '0.33.11',
+269 silly addNameRange     '0.33.12',
+269 silly addNameRange     '0.33.13',
+269 silly addNameRange     '0.34.0',
+269 silly addNameRange     '0.34.1',
+269 silly addNameRange     '0.34.2',
+269 silly addNameRange     '0.34.3',
+269 silly addNameRange     '0.34.4',
+269 silly addNameRange     '0.35.0' ] ]
+270 verbose addNamed [ 'es6-shim', '0.33.13' ]
+271 verbose addNamed [ '0.33.13', '0.33.13' ]
+272 silly lockFile 9627fab0-es6-shim-0-33-13 es6-shim@0.33.13
+273 verbose lock es6-shim@0.33.13 /Users/avega/.npm/9627fab0-es6-shim-0-33-13.lock
+274 silly lockFile d1d79cd5-rg-es6-shim-es6-shim-0-33-13-tgz https://registry.npmjs.org/es6-shim/-/es6-shim-0.33.13.tgz
+275 verbose lock https://registry.npmjs.org/es6-shim/-/es6-shim-0.33.13.tgz /Users/avega/.npm/d1d79cd5-rg-es6-shim-es6-shim-0-33-13-tgz.lock
+276 verbose addRemoteTarball [ 'https://registry.npmjs.org/es6-shim/-/es6-shim-0.33.13.tgz',
+276 verbose addRemoteTarball   '894fb83d2c2e9378c8ec23659f2b62b28f994225' ]
+277 info retry fetch attempt 1 at 20:10:21
+278 verbose fetch to= /var/folders/hb/rnv8wxh93m35d52jb9t_wpyhlr1vvh/T/npm-9509-hTPUetBO/registry.npmjs.org/es6-shim/-/es6-shim-0.33.13.tgz
+279 http GET https://registry.npmjs.org/es6-shim/-/es6-shim-0.33.13.tgz
+280 http 200 https://registry.npmjs.org/es6-promise
+281 silly registry.get cb [ 200,
+281 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+281 silly registry.get     etag: '"BUSP1DPVNPLDGD79T8F9QO2S0"',
+281 silly registry.get     'content-type': 'application/json',
+281 silly registry.get     'cache-control': 'max-age=300',
+281 silly registry.get     'content-length': '31085',
+281 silly registry.get     'accept-ranges': 'bytes',
+281 silly registry.get     date: 'Mon, 07 Mar 2016 04:10:20 GMT',
+281 silly registry.get     via: '1.1 varnish',
+281 silly registry.get     age: '39',
+281 silly registry.get     connection: 'keep-alive',
+281 silly registry.get     'x-served-by': 'cache-sjc3127-SJC',
+281 silly registry.get     'x-cache': 'HIT',
+281 silly registry.get     'x-cache-hits': '2',
+281 silly registry.get     'x-timer': 'S1457323820.713598,VS0,VE0',
+281 silly registry.get     vary: 'Accept' } ]
+282 silly addNameRange number 2 { name: 'es6-promise',
+282 silly addNameRange   range: '>=3.0.2-0 <4.0.0-0',
+282 silly addNameRange   hasData: true }
+283 silly addNameRange versions [ 'es6-promise',
+283 silly addNameRange   [ '0.1.0',
+283 silly addNameRange     '0.1.1',
+283 silly addNameRange     '0.1.2',
+283 silly addNameRange     '1.0.0',
+283 silly addNameRange     '2.0.0',
+283 silly addNameRange     '2.0.1',
+283 silly addNameRange     '2.1.0',
+283 silly addNameRange     '2.1.1',
+283 silly addNameRange     '2.2.0',
+283 silly addNameRange     '2.3.0',
+283 silly addNameRange     '3.0.0',
+283 silly addNameRange     '3.0.1',
+283 silly addNameRange     '3.0.2',
+283 silly addNameRange     '3.1.2' ] ]
+284 verbose addNamed [ 'es6-promise', '3.1.2' ]
+285 verbose addNamed [ '3.1.2', '3.1.2' ]
+286 silly lockFile a1795da9-es6-promise-3-1-2 es6-promise@3.1.2
+287 verbose lock es6-promise@3.1.2 /Users/avega/.npm/a1795da9-es6-promise-3-1-2.lock
+288 silly lockFile 906098bd-s6-promise-es6-promise-3-1-2-tgz https://registry.npmjs.org/es6-promise/-/es6-promise-3.1.2.tgz
+289 verbose lock https://registry.npmjs.org/es6-promise/-/es6-promise-3.1.2.tgz /Users/avega/.npm/906098bd-s6-promise-es6-promise-3-1-2-tgz.lock
+290 verbose addRemoteTarball [ 'https://registry.npmjs.org/es6-promise/-/es6-promise-3.1.2.tgz',
+290 verbose addRemoteTarball   '795e25ceb47f7babb263d151afbedd92d18e6a07' ]
+291 info retry fetch attempt 1 at 20:10:21
+292 verbose fetch to= /var/folders/hb/rnv8wxh93m35d52jb9t_wpyhlr1vvh/T/npm-9509-hTPUetBO/registry.npmjs.org/es6-promise/-/es6-promise-3.1.2.tgz
+293 http GET https://registry.npmjs.org/es6-promise/-/es6-promise-3.1.2.tgz
+294 http 200 https://registry.npmjs.org/reflect-metadata/-/reflect-metadata-0.1.2.tgz
+295 http 200 https://registry.npmjs.org/rxjs/-/rxjs-5.0.0-beta.2.tgz
+296 http 200 https://registry.npmjs.org/typings
+297 silly registry.get cb [ 200,
+297 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+297 silly registry.get     etag: '"9SEYM72DBFZEZGJR7SB43TIOQ"',
+297 silly registry.get     'content-type': 'application/json',
+297 silly registry.get     'cache-control': 'max-age=300',
+297 silly registry.get     'content-length': '147659',
+297 silly registry.get     'accept-ranges': 'bytes',
+297 silly registry.get     date: 'Mon, 07 Mar 2016 04:10:20 GMT',
+297 silly registry.get     via: '1.1 varnish',
+297 silly registry.get     age: '0',
+297 silly registry.get     connection: 'keep-alive',
+297 silly registry.get     'x-served-by': 'cache-sjc3121-SJC',
+297 silly registry.get     'x-cache': 'HIT',
+297 silly registry.get     'x-cache-hits': '1',
+297 silly registry.get     'x-timer': 'S1457323820.708565,VS0,VE45',
+297 silly registry.get     vary: 'Accept' } ]
+298 http 200 https://registry.npmjs.org/angular2
+299 silly registry.get cb [ 200,
+299 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+299 silly registry.get     etag: '"5N96EK6B1BP79HYKPO9OWRLPA"',
+299 silly registry.get     'content-type': 'application/json',
+299 silly registry.get     'cache-control': 'max-age=300',
+299 silly registry.get     'content-length': '90790',
+299 silly registry.get     'accept-ranges': 'bytes',
+299 silly registry.get     date: 'Mon, 07 Mar 2016 04:10:20 GMT',
+299 silly registry.get     via: '1.1 varnish',
+299 silly registry.get     age: '160',
+299 silly registry.get     connection: 'keep-alive',
+299 silly registry.get     'x-served-by': 'cache-sjc3128-SJC',
+299 silly registry.get     'x-cache': 'HIT',
+299 silly registry.get     'x-cache-hits': '1',
+299 silly registry.get     'x-timer': 'S1457323820.706688,VS0,VE0',
+299 silly registry.get     vary: 'Accept' } ]
+300 silly addNameRange number 2 { name: 'typings', range: '>=0.6.8-0 <0.7.0-0', hasData: true }
+301 silly addNameRange versions [ 'typings',
+301 silly addNameRange   [ '0.0.0',
+301 silly addNameRange     '0.0.2',
+301 silly addNameRange     '0.0.3',
+301 silly addNameRange     '0.0.4',
+301 silly addNameRange     '0.0.5',
+301 silly addNameRange     '0.0.6',
+301 silly addNameRange     '0.0.7',
+301 silly addNameRange     '0.0.8',
+301 silly addNameRange     '0.0.9',
+301 silly addNameRange     '0.0.10',
+301 silly addNameRange     '0.0.11',
+301 silly addNameRange     '0.0.12',
+301 silly addNameRange     '0.0.13',
+301 silly addNameRange     '0.1.0',
+301 silly addNameRange     '0.1.1',
+301 silly addNameRange     '0.1.2',
+301 silly addNameRange     '0.1.3',
+301 silly addNameRange     '0.1.4',
+301 silly addNameRange     '0.1.5',
+301 silly addNameRange     '0.1.6',
+301 silly addNameRange     '0.1.7',
+301 silly addNameRange     '0.2.0',
+301 silly addNameRange     '0.2.1',
+301 silly addNameRange     '0.2.2',
+301 silly addNameRange     '0.2.3',
+301 silly addNameRange     '0.2.4',
+301 silly addNameRange     '0.3.0',
+301 silly addNameRange     '0.3.1',
+301 silly addNameRange     '0.3.2',
+301 silly addNameRange     '0.3.3',
+301 silly addNameRange     '0.3.4',
+301 silly addNameRange     '0.3.5',
+301 silly addNameRange     '0.4.0',
+301 silly addNameRange     '0.4.1',
+301 silly addNameRange     '0.5.0',
+301 silly addNameRange     '0.5.1',
+301 silly addNameRange     '0.5.2',
+301 silly addNameRange     '0.6.0',
+301 silly addNameRange     '0.6.1',
+301 silly addNameRange     '0.6.2',
+301 silly addNameRange     '0.6.3',
+301 silly addNameRange     '0.6.4',
+301 silly addNameRange     '0.6.5',
+301 silly addNameRange     '0.6.6',
+301 silly addNameRange     '0.6.7',
+301 silly addNameRange     '0.6.8',
+301 silly addNameRange     '0.6.9',
+301 silly addNameRange     '0.6.10' ] ]
+302 verbose addNamed [ 'typings', '0.6.10' ]
+303 verbose addNamed [ '0.6.10', '0.6.10' ]
+304 silly lockFile e5a14a58-typings-0-6-10 typings@0.6.10
+305 verbose lock typings@0.6.10 /Users/avega/.npm/e5a14a58-typings-0-6-10.lock
+306 silly lockFile 5efcde1c-gular2-angular2-2-0-0-beta-8-tgz https://registry.npmjs.org/angular2/-/angular2-2.0.0-beta.8.tgz
+307 verbose lock https://registry.npmjs.org/angular2/-/angular2-2.0.0-beta.8.tgz /Users/avega/.npm/5efcde1c-gular2-angular2-2-0-0-beta-8-tgz.lock
+308 verbose addRemoteTarball [ 'https://registry.npmjs.org/angular2/-/angular2-2.0.0-beta.8.tgz',
+308 verbose addRemoteTarball   '98b71267b0ca1bf16fc46a0ee83a2de43b640873' ]
+309 silly lockFile ccf0383f-s-org-typings-typings-0-6-10-tgz https://registry.npmjs.org/typings/-/typings-0.6.10.tgz
+310 verbose lock https://registry.npmjs.org/typings/-/typings-0.6.10.tgz /Users/avega/.npm/ccf0383f-s-org-typings-typings-0-6-10-tgz.lock
+311 verbose addRemoteTarball [ 'https://registry.npmjs.org/typings/-/typings-0.6.10.tgz',
+311 verbose addRemoteTarball   '09960858a0aa97f39fbde9174fdcc16f45e89cf6' ]
+312 info retry fetch attempt 1 at 20:10:21
+313 verbose fetch to= /var/folders/hb/rnv8wxh93m35d52jb9t_wpyhlr1vvh/T/npm-9509-hTPUetBO/registry.npmjs.org/angular2/-/angular2-2.0.0-beta.8.tgz
+314 http GET https://registry.npmjs.org/angular2/-/angular2-2.0.0-beta.8.tgz
+315 info retry fetch attempt 1 at 20:10:21
+316 verbose fetch to= /var/folders/hb/rnv8wxh93m35d52jb9t_wpyhlr1vvh/T/npm-9509-hTPUetBO/registry.npmjs.org/typings/-/typings-0.6.10.tgz
+317 http GET https://registry.npmjs.org/typings/-/typings-0.6.10.tgz
+318 http 200 https://registry.npmjs.org/zone.js/-/zone.js-0.5.15.tgz
+319 silly lockFile cd27abb7-adata-reflect-metadata-0-1-2-tgz https://registry.npmjs.org/reflect-metadata/-/reflect-metadata-0.1.2.tgz
+320 silly lockFile cd27abb7-adata-reflect-metadata-0-1-2-tgz https://registry.npmjs.org/reflect-metadata/-/reflect-metadata-0.1.2.tgz
+321 silly lockFile 3443f81d-reflect-metadata-0-1-2 reflect-metadata@0.1.2
+322 silly lockFile 3443f81d-reflect-metadata-0-1-2 reflect-metadata@0.1.2
+323 http 200 https://registry.npmjs.org/lite-server/-/lite-server-2.1.0.tgz
+324 silly lockFile 19074e9e-ite-server-lite-server-2-1-0-tgz https://registry.npmjs.org/lite-server/-/lite-server-2.1.0.tgz
+325 silly lockFile 19074e9e-ite-server-lite-server-2-1-0-tgz https://registry.npmjs.org/lite-server/-/lite-server-2.1.0.tgz
+326 silly lockFile 41ab5d0d-lite-server-2-1-0 lite-server@2.1.0
+327 silly lockFile 41ab5d0d-lite-server-2-1-0 lite-server@2.1.0
+328 silly lockFile 20681e3f-lite-server-2-1-0 lite-server@^2.1.0
+329 silly lockFile 20681e3f-lite-server-2-1-0 lite-server@^2.1.0
+330 http 200 https://registry.npmjs.org/typescript
+331 silly registry.get cb [ 200,
+331 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+331 silly registry.get     etag: '"K447G0LU8MTK7BPIWWTZCQ2I"',
+331 silly registry.get     'content-type': 'application/json',
+331 silly registry.get     'cache-control': 'max-age=300',
+331 silly registry.get     'content-length': '407886',
+331 silly registry.get     'accept-ranges': 'bytes',
+331 silly registry.get     date: 'Mon, 07 Mar 2016 04:10:20 GMT',
+331 silly registry.get     via: '1.1 varnish',
+331 silly registry.get     age: '10',
+331 silly registry.get     connection: 'keep-alive',
+331 silly registry.get     'x-served-by': 'cache-sjc3130-SJC',
+331 silly registry.get     'x-cache': 'HIT',
+331 silly registry.get     'x-cache-hits': '1',
+331 silly registry.get     'x-timer': 'S1457323820.667864,VS0,VE0',
+331 silly registry.get     vary: 'Accept' } ]
+332 http 200 https://registry.npmjs.org/es6-shim/-/es6-shim-0.33.13.tgz
+333 silly addNameRange number 2 { name: 'typescript',
+333 silly addNameRange   range: '>=1.8.2-0 <2.0.0-0',
+333 silly addNameRange   hasData: true }
+334 silly addNameRange versions [ 'typescript',
+334 silly addNameRange   [ '0.8.0',
+334 silly addNameRange     '0.8.1',
+334 silly addNameRange     '0.8.1-1',
+334 silly addNameRange     '0.8.2',
+334 silly addNameRange     '0.8.3',
+334 silly addNameRange     '0.9.0',
+334 silly addNameRange     '0.9.0-1',
+334 silly addNameRange     '0.9.1',
+334 silly addNameRange     '0.9.1-1',
+334 silly addNameRange     '0.9.5',
+334 silly addNameRange     '0.9.7',
+334 silly addNameRange     '1.0.0',
+334 silly addNameRange     '1.0.1',
+334 silly addNameRange     '1.1.0-1',
+334 silly addNameRange     '1.3.0',
+334 silly addNameRange     '1.4.1',
+334 silly addNameRange     '1.5.0-alpha',
+334 silly addNameRange     '1.5.0-beta',
+334 silly addNameRange     '1.5.3',
+334 silly addNameRange     '1.6.0-dev.20150722.1',
+334 silly addNameRange     '1.6.0-dev.20150723',
+334 silly addNameRange     '1.6.0-dev.20150724',
+334 silly addNameRange     '1.6.0-dev.20150725',
+334 silly addNameRange     '1.6.0-dev.20150726',
+334 silly addNameRange     '1.6.0-dev.20150727',
+334 silly addNameRange     '1.6.0-dev.20150728',
+334 silly addNameRange     '1.6.0-dev.20150729',
+334 silly addNameRange     '1.6.0-dev.20150730',
+334 silly addNameRange     '1.6.0-dev.20150731',
+334 silly addNameRange     '1.6.0-dev.20150801',
+334 silly addNameRange     '1.6.0-dev.20150802',
+334 silly addNameRange     '1.6.0-dev.20150803',
+334 silly addNameRange     '1.6.0-dev.20150804',
+334 silly addNameRange     '1.6.0-dev.20150805',
+334 silly addNameRange     '1.6.0-dev.20150806',
+334 silly addNameRange     '1.6.0-dev.20150807',
+334 silly addNameRange     '1.6.0-dev.20150808',
+334 silly addNameRange     '1.6.0-dev.20150809',
+334 silly addNameRange     '1.6.0-dev.20150810',
+334 silly addNameRange     '1.6.0-dev.20150811',
+334 silly addNameRange     '1.6.0-dev.20150812',
+334 silly addNameRange     '1.6.0-dev.20150813',
+334 silly addNameRange     '1.6.0-dev.20150814',
+334 silly addNameRange     '1.6.0-dev.20150815',
+334 silly addNameRange     '1.6.0-dev.20150816',
+334 silly addNameRange     '1.6.0-dev.20150817',
+334 silly addNameRange     '1.6.0-dev.20150818',
+334 silly addNameRange     '1.6.0-dev.20150819',
+334 silly addNameRange     '1.6.0-dev.20150820',
+334 silly addNameRange     '1.6.0-dev.20150821',
+334 silly addNameRange     '1.6.0-dev.20150822',
+334 silly addNameRange     '1.6.0-dev.20150823',
+334 silly addNameRange     '1.6.0-dev.20150824',
+334 silly addNameRange     '1.6.0-dev.20150825',
+334 silly addNameRange     '1.7.0-dev.20150826',
+334 silly addNameRange     '1.7.0-dev.20150827',
+334 silly addNameRange     '1.7.0-dev.20150828',
+334 silly addNameRange     '1.7.0-dev.20150829',
+334 silly addNameRange     '1.7.0-dev.20150830',
+334 silly addNameRange     '1.7.0-dev.20150831',
+334 silly addNameRange     '1.7.0-dev.20150901',
+334 silly addNameRange     '1.7.0-dev.20150902',
+334 silly addNameRange     '1.6.0-beta',
+334 silly addNameRange     '1.7.0-dev.20150903',
+334 silly addNameRange     '1.7.0-dev.20150904',
+334 silly addNameRange     '1.6.0-dev.20150905',
+334 silly addNameRange     '1.6.0-dev.20150906',
+334 silly addNameRange     '1.6.0-dev.20150907',
+334 silly addNameRange     '1.6.0-dev.20150908',
+334 silly addNameRange     '1.6.0-dev.20150909',
+334 silly addNameRange     '1.6.0-dev.20150910',
+334 silly addNameRange     '1.6.0-dev.20150911',
+334 silly addNameRange     '1.6.0-dev.20150912',
+334 silly addNameRange     '1.6.0-dev.20150913',
+334 silly addNameRange     '1.6.0-dev.20150914',
+334 silly addNameRange     '1.6.0-dev.20150915',
+334 silly addNameRange     '1.7.0-dev.20150916',
+334 silly addNameRange     '1.6.2',
+334 silly addNameRange     '1.7.0-dev.20150917',
+334 silly addNameRange     '1.7.0-dev.20150918',
+334 silly addNameRange     '1.7.0-dev.20150919',
+334 silly addNameRange     '1.7.0-dev.20150920',
+334 silly addNameRange     '1.7.0-dev.20150921',
+334 silly addNameRange     '1.7.0-dev.20150922',
+334 silly addNameRange     '1.7.0-dev.20150923',
+334 silly addNameRange     '1.7.0-dev.20150924',
+334 silly addNameRange     '1.7.0-dev.20150925',
+334 silly addNameRange     '1.7.0-dev.20150926',
+334 silly addNameRange     '1.7.0-dev.20150927',
+334 silly addNameRange     '1.7.0-dev.20150928',
+334 silly addNameRange     '1.7.0-dev.20150929',
+334 silly addNameRange     '1.7.0-dev.20150930',
+334 silly addNameRange     '1.7.0-dev.20151001',
+334 silly addNameRange     '1.7.0-dev.20151002',
+334 silly addNameRange     '1.7.0-dev.20151003',
+334 silly addNameRange     '1.7.0-dev.20151004',
+334 silly addNameRange     '1.7.0-dev.20151005',
+334 silly addNameRange     '1.7.0-dev.20151006',
+334 silly addNameRange     '1.7.0-dev.20151014',
+334 silly addNameRange     '1.7.0-dev.20151015',
+334 silly addNameRange     '1.7.0-dev.20151016',
+334 silly addNameRange     '1.8.0-dev.20151017',
+334 silly addNameRange     '1.8.0-dev.20151018',
+334 silly addNameRange     '1.8.0-dev.20151019',
+334 silly addNameRange     '1.8.0-dev.20151020',
+334 silly addNameRange     '1.8.0-dev.20151021',
+334 silly addNameRange     '1.8.0-dev.20151022',
+334 silly addNameRange     '1.8.0-dev.20151023',
+334 silly addNameRange     '1.8.0-dev.20151024',
+334 silly addNameRange     '1.8.0-dev.20151025',
+334 silly addNameRange     '1.8.0-dev.20151026',
+334 silly addNameRange     '1.8.0-dev.20151027',
+334 silly addNameRange     '1.8.0-dev.20151028',
+334 silly addNameRange     '1.8.0-dev.20151029',
+334 silly addNameRange     '1.8.0-dev.20151030',
+334 silly addNameRange     '1.8.0-dev.20151031',
+334 silly addNameRange     '1.8.0-dev.20151101',
+334 silly addNameRange     '1.8.0-dev.20151102',
+334 silly addNameRange     '1.8.0-dev.20151103',
+334 silly addNameRange     '1.8.0-dev.20151104',
+334 silly addNameRange     '1.8.0-dev.20151105',
+334 silly addNameRange     '1.8.0-dev.20151106',
+334 silly addNameRange     '1.8.0-dev.20151107',
+334 silly addNameRange     '1.8.0-dev.20151108',
+334 silly addNameRange     '1.8.0-dev.20151109',
+334 silly addNameRange     '1.8.0-dev.20151110',
+334 silly addNameRange     '1.8.0-dev.20151111',
+334 silly addNameRange     '1.8.0-dev.20151112',
+334 silly addNameRange     '1.8.0-dev.20151113',
+334 silly addNameRange     '1.8.0-dev.20151114',
+334 silly addNameRange     '1.8.0-dev.20151115',
+334 silly addNameRange     '1.8.0-dev.20151116',
+334 silly addNameRange     '1.8.0-dev.20151117',
+334 silly addNameRange     '1.8.0-dev.20151118',
+334 silly addNameRange     '1.8.0-dev.20151119',
+334 silly addNameRange     '1.8.0-dev.20151120',
+334 silly addNameRange     '1.8.0-dev.20151121',
+334 silly addNameRange     '1.8.0-dev.20151122',
+334 silly addNameRange     '1.8.0-dev.20151123',
+334 silly addNameRange     '1.8.0-dev.20151124',
+334 silly addNameRange     '1.8.0-dev.20151125',
+334 silly addNameRange     '1.8.0-dev.20151126',
+334 silly addNameRange     '1.8.0-dev.20151127',
+334 silly addNameRange     '1.8.0-dev.20151128',
+334 silly addNameRange     '1.8.0-dev.20151129',
+334 silly addNameRange     '1.8.0-dev.20151130',
+334 silly addNameRange     '1.7.3',
+334 silly addNameRange     '1.8.0-dev.20151201',
+334 silly addNameRange     '1.8.0-dev.20151202',
+334 silly addNameRange     '1.8.0-dev.20151203',
+334 silly addNameRange     '1.8.0-dev.20151204',
+334 silly addNameRange     '1.8.0-dev.20151210',
+334 silly addNameRange     '1.8.0-dev.20151211',
+334 silly addNameRange     '1.8.0-dev.20151212',
+334 silly addNameRange     '1.8.0-dev.20151213',
+334 silly addNameRange     '1.8.0-dev.20151214',
+334 silly addNameRange     '1.7.5',
+334 silly addNameRange     '1.8.0-dev.20151215',
+334 silly addNameRange     '1.8.0-dev.20151216',
+334 silly addNameRange     '1.8.0-dev.20151217',
+334 silly addNameRange     '1.8.0-dev.20151218',
+334 silly addNameRange     '1.8.0-dev.20151219',
+334 silly addNameRange     '1.8.0-dev.20151220',
+334 silly addNameRange     '1.8.0-dev.20151221',
+334 silly addNameRange     '1.8.0-dev.20151222',
+334 silly addNameRange     '1.8.0-dev.20151223',
+334 silly addNameRange     '1.8.0-dev.20151224',
+334 silly addNameRange     '1.8.0-dev.20151225',
+334 silly addNameRange     '1.8.0-dev.20151226',
+334 silly addNameRange     '1.8.0-dev.20151227',
+334 silly addNameRange     '1.8.0-dev.20151228',
+334 silly addNameRange     '1.8.0-dev.20151229',
+334 silly addNameRange     '1.8.0-dev.20151230',
+334 silly addNameRange     '1.8.0-dev.20151231',
+334 silly addNameRange     '1.8.0-dev.20160101',
+334 silly addNameRange     '1.8.0-dev.20160102',
+334 silly addNameRange     '1.8.0-dev.20160103',
+334 silly addNameRange     '1.8.0-dev.20160104',
+334 silly addNameRange     '1.8.0-dev.20160105',
+334 silly addNameRange     '1.8.0-dev.20160106',
+334 silly addNameRange     '1.8.0-dev.20160107',
+334 silly addNameRange     '1.8.0-dev.20160108',
+334 silly addNameRange     '1.8.0-dev.20160109',
+334 silly addNameRange     '1.8.0-dev.20160110',
+334 silly addNameRange     '1.8.0-dev.20160111',
+334 silly addNameRange     '1.8.0-dev.20160112',
+334 silly addNameRange     '1.8.0-dev.20160113',
+334 silly addNameRange     '1.8.0-dev.20160114',
+334 silly addNameRange     '1.8.0-dev.20160115',
+334 silly addNameRange     '1.8.0-dev.20160116',
+334 silly addNameRange     '1.8.0-dev.20160117',
+334 silly addNameRange     '1.8.0-dev.20160118',
+334 silly addNameRange     '1.8.0-dev.20160119',
+334 silly addNameRange     '1.8.0-dev.20160120',
+334 silly addNameRange     '1.8.0-dev.20160121',
+334 silly addNameRange     '1.8.0-dev.20160122',
+334 silly addNameRange     '1.8.0-dev.20160123',
+334 silly addNameRange     '1.8.0-dev.20160124',
+334 silly addNameRange     '1.8.0-dev.20160125',
+334 silly addNameRange     '1.9.0-dev.20160126',
+334 silly addNameRange     '1.9.0-dev.20160127',
+334 silly addNameRange     '1.9.0-dev.20160128',
+334 silly addNameRange     '1.8.0',
+334 silly addNameRange     '1.9.0-dev.20160129',
+334 silly addNameRange     '1.9.0-dev.20160130',
+334 silly addNameRange     '1.9.0-dev.20160131',
+334 silly addNameRange     '1.9.0-dev.20160201',
+334 silly addNameRange     '1.9.0-dev.20160202',
+334 silly addNameRange     '1.9.0-dev.20160203',
+334 silly addNameRange     '1.9.0-dev.20160204',
+334 silly addNameRange     '1.9.0-dev.20160205',
+334 silly addNameRange     '1.9.0-dev.20160206',
+334 silly addNameRange     '1.9.0-dev.20160207',
+334 silly addNameRange     '1.9.0-dev.20160208',
+334 silly addNameRange     '1.9.0-dev.20160209',
+334 silly addNameRange     '1.9.0-dev.20160210',
+334 silly addNameRange     '1.9.0-dev.20160211',
+334 silly addNameRange     '1.9.0-dev.20160212',
+334 silly addNameRange     '1.9.0-dev.20160213',
+334 silly addNameRange     '1.9.0-dev.20160214',
+334 silly addNameRange     '1.9.0-dev.20160215',
+334 silly addNameRange     '1.9.0-dev.20160216',
+334 silly addNameRange     '1.9.0-dev.20160217',
+334 silly addNameRange     '1.9.0-dev.20160218',
+334 silly addNameRange     '1.9.0-dev.20160219',
+334 silly addNameRange     '1.9.0-dev.20160220',
+334 silly addNameRange     '1.9.0-dev.20160221',
+334 silly addNameRange     '1.9.0-dev.20160222',
+334 silly addNameRange     '1.8.2',
+334 silly addNameRange     '1.9.0-dev.20160223',
+334 silly addNameRange     '1.9.0-dev.20160224',
+334 silly addNameRange     '1.9.0-dev.20160225',
+334 silly addNameRange     '1.9.0-dev.20160226',
+334 silly addNameRange     '1.9.0-dev.20160227',
+334 silly addNameRange     '1.9.0-dev.20160228',
+334 silly addNameRange     '1.9.0-dev.20160229',
+334 silly addNameRange     '1.9.0-dev.20160301',
+334 silly addNameRange     '1.8.5',
+334 silly addNameRange     '1.8.6',
+334 silly addNameRange     '1.8.7',
+334 silly addNameRange     '1.9.0-dev.20160302',
+334 silly addNameRange     '1.9.0-dev.20160302.1',
+334 silly addNameRange     '1.9.0-dev.20160303',
+334 silly addNameRange     '1.9.0-dev.20160304',
+334 silly addNameRange     '1.9.0-dev.20160305',
+334 silly addNameRange     '1.9.0-dev.20160306' ] ]
+335 verbose addNamed [ 'typescript', '1.8.7' ]
+336 verbose addNamed [ '1.8.7', '1.8.7' ]
+337 silly lockFile 112450d2-typescript-1-8-7 typescript@1.8.7
+338 verbose lock typescript@1.8.7 /Users/avega/.npm/112450d2-typescript-1-8-7.lock
+339 silly lockFile 3a82c3e3--typescript-typescript-1-8-7-tgz https://registry.npmjs.org/typescript/-/typescript-1.8.7.tgz
+340 verbose lock https://registry.npmjs.org/typescript/-/typescript-1.8.7.tgz /Users/avega/.npm/3a82c3e3--typescript-typescript-1-8-7-tgz.lock
+341 verbose addRemoteTarball [ 'https://registry.npmjs.org/typescript/-/typescript-1.8.7.tgz',
+341 verbose addRemoteTarball   '35e3838de31c91cfe1d8c20e0e5785d386938a49' ]
+342 http 200 https://registry.npmjs.org/systemjs/-/systemjs-0.19.22.tgz
+343 http 200 https://registry.npmjs.org/concurrently/-/concurrently-2.0.0.tgz
+344 info retry fetch attempt 1 at 20:10:21
+345 verbose fetch to= /var/folders/hb/rnv8wxh93m35d52jb9t_wpyhlr1vvh/T/npm-9509-hTPUetBO/registry.npmjs.org/typescript/-/typescript-1.8.7.tgz
+346 http GET https://registry.npmjs.org/typescript/-/typescript-1.8.7.tgz
+347 silly lockFile d1d79cd5-rg-es6-shim-es6-shim-0-33-13-tgz https://registry.npmjs.org/es6-shim/-/es6-shim-0.33.13.tgz
+348 silly lockFile d1d79cd5-rg-es6-shim-es6-shim-0-33-13-tgz https://registry.npmjs.org/es6-shim/-/es6-shim-0.33.13.tgz
+349 silly lockFile 9627fab0-es6-shim-0-33-13 es6-shim@0.33.13
+350 silly lockFile 9627fab0-es6-shim-0-33-13 es6-shim@0.33.13
+351 silly lockFile 2b85dc02-es6-shim-0-33-3 es6-shim@^0.33.3
+352 silly lockFile 2b85dc02-es6-shim-0-33-3 es6-shim@^0.33.3
+353 http 200 https://registry.npmjs.org/es6-promise/-/es6-promise-3.1.2.tgz
+354 silly lockFile 22cbb087-s-org-zone-js-zone-js-0-5-15-tgz https://registry.npmjs.org/zone.js/-/zone.js-0.5.15.tgz
+355 silly lockFile 22cbb087-s-org-zone-js-zone-js-0-5-15-tgz https://registry.npmjs.org/zone.js/-/zone.js-0.5.15.tgz
+356 silly lockFile e801f833-zone-js-0-5-15 zone.js@0.5.15
+357 silly lockFile e801f833-zone-js-0-5-15 zone.js@0.5.15
+358 silly lockFile 906098bd-s6-promise-es6-promise-3-1-2-tgz https://registry.npmjs.org/es6-promise/-/es6-promise-3.1.2.tgz
+359 silly lockFile 906098bd-s6-promise-es6-promise-3-1-2-tgz https://registry.npmjs.org/es6-promise/-/es6-promise-3.1.2.tgz
+360 silly lockFile a1795da9-es6-promise-3-1-2 es6-promise@3.1.2
+361 silly lockFile a1795da9-es6-promise-3-1-2 es6-promise@3.1.2
+362 silly lockFile eacf8031-es6-promise-3-0-2 es6-promise@^3.0.2
+363 silly lockFile eacf8031-es6-promise-3-0-2 es6-promise@^3.0.2
+364 silly lockFile bc8bbc94-currently-concurrently-2-0-0-tgz https://registry.npmjs.org/concurrently/-/concurrently-2.0.0.tgz
+365 silly lockFile bc8bbc94-currently-concurrently-2-0-0-tgz https://registry.npmjs.org/concurrently/-/concurrently-2.0.0.tgz
+366 silly lockFile 7585b787-concurrently-2-0-0 concurrently@2.0.0
+367 silly lockFile 7585b787-concurrently-2-0-0 concurrently@2.0.0
+368 silly lockFile fbc10fe1-concurrently-2-0-0 concurrently@^2.0.0
+369 silly lockFile fbc10fe1-concurrently-2-0-0 concurrently@^2.0.0
+370 http 200 https://registry.npmjs.org/angular2/-/angular2-2.0.0-beta.8.tgz
+371 http 200 https://registry.npmjs.org/typings/-/typings-0.6.10.tgz
+372 http 200 https://registry.npmjs.org/typescript/-/typescript-1.8.7.tgz
+373 silly lockFile ccf0383f-s-org-typings-typings-0-6-10-tgz https://registry.npmjs.org/typings/-/typings-0.6.10.tgz
+374 silly lockFile ccf0383f-s-org-typings-typings-0-6-10-tgz https://registry.npmjs.org/typings/-/typings-0.6.10.tgz
+375 silly lockFile e5a14a58-typings-0-6-10 typings@0.6.10
+376 silly lockFile e5a14a58-typings-0-6-10 typings@0.6.10
+377 silly lockFile eb17ec3b-typings-0-6-8 typings@^0.6.8
+378 silly lockFile eb17ec3b-typings-0-6-8 typings@^0.6.8
+379 silly lockFile b33905b7-rg-systemjs-systemjs-0-19-22-tgz https://registry.npmjs.org/systemjs/-/systemjs-0.19.22.tgz
+380 silly lockFile b33905b7-rg-systemjs-systemjs-0-19-22-tgz https://registry.npmjs.org/systemjs/-/systemjs-0.19.22.tgz
+381 silly lockFile 1a67ba76-systemjs-0-19-22 systemjs@0.19.22
+382 silly lockFile 1a67ba76-systemjs-0-19-22 systemjs@0.19.22
+383 silly lockFile ae0da9a0-s-org-rxjs-rxjs-5-0-0-beta-2-tgz https://registry.npmjs.org/rxjs/-/rxjs-5.0.0-beta.2.tgz
+384 silly lockFile ae0da9a0-s-org-rxjs-rxjs-5-0-0-beta-2-tgz https://registry.npmjs.org/rxjs/-/rxjs-5.0.0-beta.2.tgz
+385 silly lockFile 0a158e3a-rxjs-5-0-0-beta-2 rxjs@5.0.0-beta.2
+386 silly lockFile 0a158e3a-rxjs-5-0-0-beta-2 rxjs@5.0.0-beta.2
+387 silly lockFile 3a82c3e3--typescript-typescript-1-8-7-tgz https://registry.npmjs.org/typescript/-/typescript-1.8.7.tgz
+388 silly lockFile 3a82c3e3--typescript-typescript-1-8-7-tgz https://registry.npmjs.org/typescript/-/typescript-1.8.7.tgz
+389 silly lockFile 112450d2-typescript-1-8-7 typescript@1.8.7
+390 silly lockFile 112450d2-typescript-1-8-7 typescript@1.8.7
+391 silly lockFile 1a11b4a5-typescript-1-8-2 typescript@^1.8.2
+392 silly lockFile 1a11b4a5-typescript-1-8-2 typescript@^1.8.2
+393 silly lockFile 5efcde1c-gular2-angular2-2-0-0-beta-8-tgz https://registry.npmjs.org/angular2/-/angular2-2.0.0-beta.8.tgz
+394 silly lockFile 5efcde1c-gular2-angular2-2-0-0-beta-8-tgz https://registry.npmjs.org/angular2/-/angular2-2.0.0-beta.8.tgz
+395 silly lockFile a1260297-angular2-2-0-0-beta-8 angular2@2.0.0-beta.8
+396 silly lockFile a1260297-angular2-2-0-0-beta-8 angular2@2.0.0-beta.8
+397 error Error: EACCES, mkdir '/Users/avega/.npm/es6-promise/3.1.2'
+397 error  { [Error: EACCES, mkdir '/Users/avega/.npm/es6-promise/3.1.2']
+397 error   errno: 3,
+397 error   code: 'EACCES',
+397 error   path: '/Users/avega/.npm/es6-promise/3.1.2',
+397 error   parent: 'angular2-quickstart' }
+398 error Please try running this command again as root/Administrator.
+399 error System Darwin 14.5.0
+400 error command "node" "/usr/local/bin/npm" "install"
+401 error cwd /Users/avega/IdeaProjects/Angular2HelloProject
+402 error node -v v0.10.33
+403 error npm -v 1.4.28
+404 error path /Users/avega/.npm/es6-promise/3.1.2
+405 error code EACCES
+406 error errno 3
+407 error stack Error: EACCES, mkdir '/Users/avega/.npm/es6-promise/3.1.2'
+408 verbose exit [ 3, true ]
